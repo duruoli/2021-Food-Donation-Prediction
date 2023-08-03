@@ -79,7 +79,7 @@ R; Jupyter notebook (python)
 
 ### 4.Make a poster & Presentation
 
-## P.S Ideas Map
+## Idea Map
 1)Read background information about food banks around the world. 
 
 2)Read the paper and find the conclusions very interesting ---> decide to make further work on this topic: different regression components reflecting economic influences (unemployment rate, retail trade); different stacking methods (Mixture of Experts)
