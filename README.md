@@ -8,6 +8,9 @@ Predict In-Kind Food Donation of the Food Bank at Central Eastern North Carolina
 ## Institution
 NC State University the Gears Program
 
+## Data
+Raw donation data (330M) provided by the Food Bank at Central Eastern North Carolina
+
 ## Abstract
 The distribution of in-kind food donations to the food banks can be hard due to the donations' inconsistent and volatile features. Building time series prediction models with the past data is helpful. However, to make the models robust and reliable enough, we need to choose the methods carefully. In this work, I choose different methods including classical ones like ARIMA, ETS, SVR and more advanced ones like BSTS and LSTM. My goal is to find the best-performed prediction approach for the in-kind donations of the Food Bank at Central Eastern North Carolina (FBCENC). I take 12-month history data as training data to make one-step prediction. The results indicate that among all the models, EST performs the best. Results on BSTS model show that additional economic indicators are correlated with the donation amount, but they couldn't improve the models' performance significantly. 
 
