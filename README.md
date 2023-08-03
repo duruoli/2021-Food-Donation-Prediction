@@ -13,13 +13,13 @@ The distribution of in-kind food donations to the food banks can be hard due to 
 
 
 ## Things Done
-### 1.Read paper & Search background information
+### 1. Read paper & Search background information
 Background information: special Germany food banks (government order large retail business to sign contracts with food banks to donate->what retailers donate is largely related to their retail trade)
 
 Paper: https://www.mubucm.com/doc/7I9oA5nwWWf (mind map based on the paper)
 
-### 2.Learn new methods  
-#### 1)BSTS
+### 2. Learn new methods  
+#### 1) BSTS
 
 Learn tutorials:
 
@@ -31,7 +31,7 @@ Learn tutorials:
 
 [4]Authorial R package introductions: predict.bsts; bsts.prediction.error
 
-#### 2)Mixture of Experts
+#### 2) Mixture of Experts
 Papers:
 
 [1] J. D. Wichard and M. Ogorzalek, "Time series prediction with ensemble models," 2004 IEEE International Joint Conference on Neural Networks (IEEE Cat. No.04CH37541), 2004, pp. 1625-1630 vol.2, doi: 10.1109/IJCNN.2004.1380203.
@@ -50,7 +50,7 @@ Tutorials:
 
 [4]https://youtu.be/d_GVvIBlWtI  (Lecture 10.2: Mixtures of Experts [Neural Networks for Machine Learning])
 
-#### 3)LSTM
+#### 3) LSTM
 Paper:
 
 [1]Siami-Namini, Sima, Neda Tavakoli, and Akbar Siami Namin. "A comparison of ARIMA and LSTM in forecasting time series." 2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA). IEEE, 2018.
@@ -67,34 +67,34 @@ Tutorial:(learn how to make data stationary, scaled, and turned into supervised 
 
 [5]https://www.kdnuggets.com/2018/11/keras-long-short-term-memory-lstm-model-predict-stock-prices.html
 
-### 3.Do time-series prediction & Comparison
+### 3. Do time-series prediction & Comparison
 
-#### 1)Clean raw data 
+#### 1) Clean raw data 
 Filter by year---> sum(na.omit) ---> turn into standard date format(different transformation due to different raw formats)
 
-#### 2)Prediction practise
+#### 2) Prediction practise
 R; Jupyter notebook (python)
 
-#### 3)Comparison: RMSE, MAE; bsts package function
+#### 3) Comparison: RMSE, MAE; bsts package function
 
-### 4.Make a poster & Presentation
+### 4. Make a poster & Presentation
 
 ## Idea Map
-1)Read background information about food banks around the world. 
+1) Read background information about food banks around the world. 
 
-2)Read the paper and find the conclusions very interesting ---> decide to make further work on this topic: different regression components reflecting economic influences (unemployment rate, retail trade); different stacking methods (Mixture of Experts)
+2) Read the paper and find the conclusions very interesting ---> decide to make further work on this topic: different regression components reflecting economic influences (unemployment rate, retail trade); different stacking methods (Mixture of Experts)
 
-3)Time-series experiment preparation: haven’t done time-series predictions before ---> use R (more packages widely used) ---> turn different date format into standard forms (including additional data)
+3) Time-series experiment preparation: haven’t done time-series predictions before ---> use R (more packages widely used) ---> turn different date format into standard forms (including additional data)
 
-4)BSTS: read BSTS package description and tutorials on line ---> make comparison between plain model and plus one ---> no improvement ---> try more additional data (initial claims, leading index, total non-farm employment...) ---> no differences
+4) BSTS: read BSTS package description and tutorials on line ---> make comparison between plain model and plus one ---> no improvement ---> try more additional data (initial claims, leading index, total non-farm employment...) ---> no differences
 
-5)Mixture of Experts: No idea and few tutorials ---> read papers (so difficult! Couldn’t understand the algorithms) ---> procrastination & depressed ---> read old papers ---> Mixture of Experts seldom used in time-series predictions and may unsuitable ---> give up
+5) Mixture of Experts: No idea and few tutorials ---> read papers (so difficult! Couldn’t understand the algorithms) ---> procrastination & depressed ---> read old papers ---> Mixture of Experts seldom used in time-series predictions and may unsuitable ---> give up
 
 *Reread the paper and focus on the methods part---> decide to replay these methods since trying new methods is more difficult than I think ---> explore the principals authors used to evaluate models*
 
-6)LSTM: read LSTM theories (based on RNN; differences from RNN) ---> read tutorials & python package descriptions ---> try one tutorial (normal time-series prediction preprocessing: supervised learning, stationary, scaled) ---> couldn’t understand the parameter ---> try another tutorial ---> come out with the outcomes
+6) LSTM: read LSTM theories (based on RNN; differences from RNN) ---> read tutorials & python package descriptions ---> try one tutorial (normal time-series prediction preprocessing: supervised learning, stationary, scaled) ---> couldn’t understand the parameter ---> try another tutorial ---> come out with the outcomes
 
-7)Classical methods(python) : ARIMA read tutorials and try ---> ETS ---> SVR
+7) Classical methods(python) : ARIMA read tutorials and try ---> ETS ---> SVR
 
-8)Replay BSTS and find ways to get the MAE, RMSE
+8) Replay BSTS and find ways to get the MAE, RMSE
 
